@@ -33,9 +33,3 @@ UserParameter=nginx.discovery[*],/etc/zabbix/scripts/nginx-discovery.py $1
    ![lastdata](https://github.com/Vovanys/zabbix_nginx_vts/blob/master/img/lastdata.jpg?raw=true)  
 
    ![discovery](https://github.com/Vovanys/zabbix_nginx_vts/blob/master/img/discovery.jpg?raw=true)  
-
-Distributed as-is.  
-
----
-
-这样应该符合你的需求，翻译尽量保持了原文的准确性和可读性。🚀
