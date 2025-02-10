@@ -1,5 +1,5 @@
 This project originates from and thanks to the original author:  
-https://github.com/Vovanys/zabbix_nginx_vts  
+https://github.com/Vovanys/zabbix_nginx_vts
 
 # zabbix_nginx_vts  
 Zabbix monitoring scripts for `nginx-module-vts`  
@@ -25,11 +25,11 @@ UserParameter=nginx.discovery[*],/etc/zabbix/scripts/nginx-discovery.py $1
 4. Add a macro to the host specifying the path to the status URL in JSON format (!!!)  
    Example: `{$URL_VTS_STATUS}`, e.g., `https://site.com/status/format/json`  
 
-   ![macros](https://github.com/Vovanys/zabbix_nginx_vts/blob/master/img/macros.jpg?raw=true)  
+   ![macros](https://github.com/johe123qwe/zabbix_nginx_vts/blob/master/img/macros.jpg?raw=true)  
 
 5. Attach the Nginx VTS template to the network node  
 6. Check for fresh data  
 
-   ![lastdata](https://github.com/Vovanys/zabbix_nginx_vts/blob/master/img/lastdata.jpg?raw=true)  
+   ![lastdata](https://github.com/johe123qwe/zabbix_nginx_vts/blob/master/img/lastdata.jpg?raw=true)  
 
-   ![discovery](https://github.com/Vovanys/zabbix_nginx_vts/blob/master/img/discovery.jpg?raw=true)  
+   ![discovery](https://github.com/johe123qwe/zabbix_nginx_vts/blob/master/img/discovery.jpg?raw=true)  
